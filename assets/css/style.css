@@ -15,8 +15,8 @@ body {
 }
 
 .container {
-    width: 100px;
-    max-width: 80%;
+    width: 700px;
+    max-width: 100%;
     height: auto;
     background-color: white;
     border-radius: 5px;
@@ -47,7 +47,7 @@ button:hover {
 .controls {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;   
 }
 .hide{
     display: none;
