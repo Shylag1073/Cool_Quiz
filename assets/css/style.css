@@ -1,3 +1,54 @@
-* {
-    background-color: aqua;
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: white;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 100px;
+    max-width: 80%;
+    height: auto;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 10px 2px;
+}
+
+.all-answer-btn {
+    display: grid;
+    gap: 10px;
+    margin: 20px 0;
+}
+button {
+    border: 2px solid purple;
+    border-radius: 5px;
+    padding: 5px 10px;
+    outline: none;
+}
+button:hover {
+    border: 10px black;
+}
+
+.start-button, .next-button {
+    font-weight: bold;
+    font-size: 1.0rem;
+    padding: 10px 20px;
+}
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hide{
+    display: none;
 }
